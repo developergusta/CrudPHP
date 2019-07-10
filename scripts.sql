@@ -1,6 +1,6 @@
 create database banco01;
 
-use database01;
+use banco01;
 
 create table Endereco
 (
