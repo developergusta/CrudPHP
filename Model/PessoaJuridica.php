@@ -1,5 +1,33 @@
 <?php
 
+if(isset($_POST['acao'])){
+    $acao = filter_input(INPUT_POST, 'acao', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+elseif(isset($_GET['acao'])){
+    $acao = filter_input(INPUT_GET, 'acao', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+
+if(isset($_POST['cnpj'])){
+    $cnpj = filter_input(INPUT_POST, 'cnpj', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+elseif(isset($_GET['cnpj'])){
+    $cnpj = filter_input(INPUT_GET, 'cnpj', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+
+if(isset($_POST['razaosocial'])){
+    $razaosocial = filter_input(INPUT_POST, 'razaosocial', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+elseif(isset($_GET['razaosocial'])){
+    $razaosocial = filter_input(INPUT_GET, 'razaosocial', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+
+if(isset($_POST['nomefantasia'])){
+    $nomefantasia = filter_input(INPUT_POST, 'nomefantasia', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+elseif(isset($_GET['nomefantasia'])){
+    $nomefantasia = filter_input(INPUT_GET, 'nomefantasia', FILTER_SANITIZE_SPECIAL_CHARS);
+}
+
 require_once 'Controlador.php';
 
 class PessoaJuridica implements Controlador{
