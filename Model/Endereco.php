@@ -50,6 +50,7 @@ elseif(isset($_GET['uf'])){
 }
 
 
+
 class Endereco{
     private $cep;
     private $logradouro;

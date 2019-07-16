@@ -28,6 +28,6 @@ create table PessoaJuridica
 id serial PRIMARY KEY,
 cnpj int NOT NULL,
 razao_social varchar (150) NOT NULL,
-nome_fantasia varchar (150) NOT NULL,
+nome_fantasia varchar (150) NOT NULL
 );
 

@@ -13,13 +13,7 @@
         <script src="/Assets/js/js.js" type="text/javascript"></script>      
         <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
         <script src="../Assets/js/jquery.mask.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-            $('#datanasc').mask('00/00/0000');
-        </script>
-        <script>
-                    
-        </script>
+        
         <title>Lista</title>
     </head>
     <body>
@@ -34,26 +28,6 @@
         <nav class="navbar fixed-top navbar-expand-md navbar-new-bottom">
             <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
 
-                <ul class="navbar-nav w-100 justify-content-center px-3">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Link2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Link3</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Link</a>
-                    </li>
-                </ul>
             </div>
         </nav>
         <br>
