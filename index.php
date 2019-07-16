@@ -7,11 +7,12 @@
 <table class="table table-striped">
     <thead class="thead-dark">
         <tr>
-            <th>Nome</td>
-            <th>Sobrenome</td>
-            <th>CPF</td>
-            <th>Data de Nascimento</td>
-            <th>Ação</td>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>CPF</th>
+            <th>Data de Nascimento</th>
+            <th>Ação</th>
+            <th>Endereço</th>
         </tr>
     </thead>
 

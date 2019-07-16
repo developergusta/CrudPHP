@@ -20,6 +20,22 @@ function aparece(opthard) {
                 document.getElementById(opthard).style.display = "none";
             }
         }
+        
+        function aparece(opthard) {
+            var rates = opthard;
+var rate_value;
+if(rates =='fisica'){
+    document.getElementById('fisica').style.display = "block";
+    document.getElementById('juridica').style.display = "none";
+    
+
+}else if(rates =='juridica'){
+    document.getElementById('juridica').style.display = "block";
+    document.getElementById('fisica').style.display = "none";
+
+} 
+        }
+
 
 $('.delete').on('click', function (event) {
     event.preventDefault();
@@ -33,6 +49,7 @@ $(document).ready(function () {
     $('#datanasc').mask('00/00/0000');
     $("#cpf").mask("000.000.000-00");
     $("#cnpj").mask("00.000.000/0000-00");
+    $("#cnpj").mask("00000-000");
 }
 );
 

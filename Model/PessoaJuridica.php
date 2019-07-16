@@ -21,11 +21,11 @@ elseif(isset($_GET['razaosocial'])){
     $razaosocial = filter_input(INPUT_GET, 'razaosocial', FILTER_SANITIZE_SPECIAL_CHARS);
 }
 
-if(isset($_POST['nomefantasia'])){
-    $nomefantasia = filter_input(INPUT_POST, 'nomefantasia', FILTER_SANITIZE_SPECIAL_CHARS);
+if(isset($_POST['nome_fantasia'])){
+    $nome_fantasia = filter_input(INPUT_POST, 'nome_fantasia', FILTER_SANITIZE_SPECIAL_CHARS);
 }
-elseif(isset($_GET['nomefantasia'])){
-    $nomefantasia = filter_input(INPUT_GET, 'nomefantasia', FILTER_SANITIZE_SPECIAL_CHARS);
+elseif(isset($_GET['nome_fantasia'])){
+    $nome_fantasia = filter_input(INPUT_GET, 'nome_fantasia', FILTER_SANITIZE_SPECIAL_CHARS);
 }
 
 require_once 'Controlador.php';
